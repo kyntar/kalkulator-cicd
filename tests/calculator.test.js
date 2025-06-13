@@ -5,7 +5,7 @@
 
 // Fungsi performCalculation dari script.js (atau mock/reimplementasi untuk tes)
 // Sebaiknya impor jika script.js diatur sebagai modul.
-// Di sini, kita akan mengasumsikan performCalculation dapat diakses atau kita uji secara terpisah.
+// Di sini, kita akan mengasumsikan performCalculation dapat diakses atau kita uji secara terpisah
 function testPerformCalculation(expression) {
     try {
         const result = new Function('return ' + expression)();
